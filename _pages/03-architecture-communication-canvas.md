@@ -21,7 +21,7 @@ Click on an element to see a more detailed description, or just scroll down.
   <div class="flex column">
     <strong>Value Proposition</strong><br>
      <small>
-      What is the core business case or economic driver?
+      What is the core business case or what are we trying to solve?
      </small>
   </div>
   <i class="fa fa-briefcase icon" aria-hidden="true"></i>
@@ -34,10 +34,10 @@ Click on an element to see a more detailed description, or just scroll down.
       <div class="flex column ">
         <strong>Key Stakeholder</strong><br />
         <small>
-          For whom are we creating value?<br />
-          Who are the customers?<br />
-          Who is paying?<br />
+          Who specifies the requirements?<br />
           Who is contributing?<br />
+          Who fixes it when it breaks?<br />
+          Who is developing this?<br />
         </small>
       </div>
       <i class="fa fa-user-friends icon" aria-hidden="true"></i>
@@ -47,10 +47,10 @@ Click on an element to see a more detailed description, or just scroll down.
   <a href="#functions" class="part requirement functions">
     <div class="flex row space-between">
       <div class="flex column">
-        <strong>Core Functions</strong><br>
+        <strong>Core Principles</strong><br>
         <small>
-          Most important functions?<br />
-          Supported processes or activities<br />
+          What is the definition?<br />
+          Supported processes or activities?<br />
         </small>
       </div>
         <i class="fa fa-list-ul icon" aria-hidden="true"></i>
@@ -62,8 +62,8 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="flex column">
       <strong>Quality Requirements</strong><br>
       <small>
-    Speed, scalability, reliability, usability, security, 
-    safety, capacity, flexibility or similar.
+    Data latency, scalability, reliability, security 
+    or similar.
       </small>
     </div>
       <i class="fa fa-certificate icon" aria-hidden="true"></i>
@@ -182,25 +182,24 @@ Answer at least on of the following questions:
 
 Identify the most important stakeholders of the system:
 
-* For whom are we creating value?
-* Who is paying for development?
-* Who is paying for operations?
-* Who are our most important customers?
 * Who are our most important contributors?
+* Who is responsible for operations?
+* Who are our most important consumers?
+* Who is doing the development?
 
 <a id="functions"/>
-### Core Functions
+### Core Principles
 
+* What is the definition in business terms?
 * What are the most important functions, features or use-cases of the system?
 * What activities or processes does it offer?
 * What is the major use-case?
-* Which of the functions generates high value for stakeholders?
 * Which functions are risky, dangerous or critical?
 
 <a id="quality"/>
 ### Quality Requirements
 
-What are the important quality goals and requirements, like speed, scalability, reliability, usability, security, safety, capacity or similar.
+What are the important quality goals and requirements, like data latency, scalability, reliability, security or similar.
 
 See the companion [site on quality](https://quality.arc42.org), where you find detailed descriptions of more than 130 quality attributes, plus numerous examples of specific quality requirements.
 
@@ -258,8 +257,3 @@ See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 * What hinders development or value-generation?
 * What would you like to know about the system, but cannot currently find out?
 * What is hindering the team from delivering better value faster?
-
-
-## Download
-
-Visit the [downloads-page](/downloads#architecture-communication-canvas-acc) for downloading the ACC Canvas.

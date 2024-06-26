@@ -81,7 +81,7 @@ Click on an element to see a more detailed description, or just scroll down.
 <a href="#decisions" class="part solution decisions">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Core Decisions - <br />Assumptions and Rationale</strong><br />
+      <strong>Core Architecture Decisions</strong><br />
       <small>
         What assumptions have been incorporated into architecture decisions? 
       </small>
@@ -119,13 +119,8 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="square blue">
     </div>
     <span class="label">
-      Solution: How is it done? How does it work?
+      Solution: How is it done? How does it work? What are the rationale behind the design decisions?
     </span>
-    <div class="square red">
-    </div>
-    <span class="label">
-      What are the rationale behind the design decisions?
-    </span> 
   </div>
 </div>
 

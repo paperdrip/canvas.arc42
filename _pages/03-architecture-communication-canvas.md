@@ -21,7 +21,7 @@ Click on an element to see a more detailed description, or just scroll down.
   <div class="flex column">
     <strong>Value Proposition</strong><br>
      <small>
-      What is the core business case or what are we trying to solve?
+      What specific problems does this application software aim to solve, and what unique values does it offer?
      </small>
   </div>
   <i class="fa fa-briefcase icon" aria-hidden="true"></i>
@@ -32,60 +32,38 @@ Click on an element to see a more detailed description, or just scroll down.
   <a href="#stakeholder" class="part requirement stakeholder">
     <div class="flex row space-between">
       <div class="flex column ">
-        <strong>Key Stakeholder</strong><br />
+        <strong>Key Stakeholders</strong><br />
         <small>
-          Who specifies the requirements?<br />
-          Who is contributing?<br />
-          Who fixes it when it breaks?<br />
-          Who is developing this?<br />
+          Who has been informed or consulted to endorse the proposed initiative?
         </small>
       </div>
       <i class="fa fa-user-friends icon" aria-hidden="true"></i>
     </div>
   </a>
 
-  <a href="#functions" class="part requirement functions">
-    <div class="flex row space-between">
-      <div class="flex column">
-        <strong>Core Principles</strong><br>
-        <small>
-          What is the definition?<br />
-          Supported processes or activities?<br />
-        </small>
-      </div>
-        <i class="fa fa-list-ul icon" aria-hidden="true"></i>
-    </div>
-  </a>
-
-<a href="#quality" class="part requirement quality">
-  <div class="flex row space-between">
-    <div class="flex column">
-      <strong>Quality Requirements</strong><br>
-      <small>
-    Data latency, scalability, reliability, security 
-    or similar.
-      </small>
-    </div>
-      <i class="fa fa-certificate icon" aria-hidden="true"></i>
-  </div>
-</a>
-  
-  
   
 <a href="#context" class="part requirement context">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Business Context</strong><br>
-      <small>Important external interfaces
-    or neighbouring systems,<br>
-    including important actors or user roles
-      </small>
+      <strong>Scope of the Proposition</strong><br>
+      <small>What are the specific objectives, boundaries, and deliverables associated with this proposition?</small>
   </div>
       <i class="fa fa-link icon" aria-hidden="true"></i>
   </div>
 </a>
   
 
+<a href="#quality" class="part requirement quality">
+  <div class="flex row space-between">
+    <div class="flex column">
+      <strong>Quality Requirements</strong><br>
+      <small>What are the specific criteria that must be met? </small>
+    </div>
+      <i class="fa fa-certificate icon" aria-hidden="true"></i>
+  </div>
+</a>
+  
+  
 <a href="#components" class="part solution components">
   <div class="flex row space-between">
     <div class="flex column">
@@ -103,9 +81,9 @@ Click on an element to see a more detailed description, or just scroll down.
 <a href="#decisions" class="part solution decisions">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Core Decisions - <br />Good or Bad</strong><br />
+      <strong>Core Decisions - <br />Assumptions and Rationale</strong><br />
       <small>
-        Which decisions lead to the current state?
+        What assumptions have been incorporated into architecture decisions? 
       </small>
     </div>
       <i class="fas fa-arrows-alt-v icon" aria-hidden="true"></i>
@@ -124,20 +102,6 @@ Click on an element to see a more detailed description, or just scroll down.
       <i class="fas fa-tools icon" aria-hidden="true"></i>
   </div>
 </a>
-  
-<a href="#risks" class="part problem risks">
-  <div class="flex row space-between">
-    <div class="flex column">
-      <strong>Risks and Missing Information</strong><br>
-      <small>
-        Potential problems and risks?<br>
-        What information is missing or has gotten lost?<br>
-        What is hindering the team from delivering better value faster?<br>
-      </small>
-    </div>
-      <i class="fas fa-question icon" aria-hidden="true"></i>
-  </div>
-</a>
 
 </div>
 
@@ -150,7 +114,7 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="square green">
     </div>
     <span class="label">
-      Requirements: What should the system do?
+      Goals: What should the system do?
     </span>
     <div class="square blue">
     </div>
@@ -160,7 +124,7 @@ Click on an element to see a more detailed description, or just scroll down.
     <div class="square red">
     </div>
     <span class="label">
-      What are known problems and risks?
+      What are the rationale behind the design decisions?
     </span> 
   </div>
 </div>
@@ -169,69 +133,39 @@ Click on an element to see a more detailed description, or just scroll down.
 <a id="value"/>
 ### Value Proposition
 
-Answer at least on of the following questions:
+A value proposition is a clear statement that explains what is the problem to solve, situation to improve and the specific benefits delivers. It is a promise of value to be delivered and a belief that value will be experienced.
 
-* What are the systems' major objectives?
-* What value does the system deliver to the customer?
-* What are the major business goals of the system?
-* Why is the system build and operated?
-* What is its core responsibility?
+* **Identify Needs**: What is it trying to solve? What benefits could it bring?
 
 <a id="stakeholder"/>
 ### Key Stakeholder
 
-Identify the most important stakeholders of the system:
+Identify the most important stakeholders to be informed or consulted for endorsing the proposed initiative
 
-* Who are our most important contributors?
-* Who is responsible for operations?
-* Who are our most important consumers?
-* Who is doing the development?
+* **Not only the architects**: Who are our most important contributors or subject matter experts?
 
-<a id="functions"/>
-### Core Principles
+<a id="context"/>
+### Scope of the Proposition
 
-* What is the definition in business terms?
-* What are the most important functions, features or use-cases of the system?
-* What activities or processes does it offer?
-* What is the major use-case?
-* Which functions are risky, dangerous or critical?
+What aims to achieve (objectives), the limits or scope within which it operates (boundaries), and the tangible outcomes or results expected from it (deliverables). This inquiry helps clarify the purpose and expectations of the proposition.
+
+* **Make it Clear**: What is the definition in business terms?
+* **What it is Not**: What would be out of scope?
 
 <a id="quality"/>
 ### Quality Requirements
 
-What are the important quality goals and requirements, like data latency, scalability, reliability, security or similar.
+What are the important quality goals and requirements, like data latency, reliability, performance or similar. These goals must fulfill stakeholder expectations and met to be considered successful. 
 
-See the companion [site on quality](https://quality.arc42.org), where you find detailed descriptions of more than 130 quality attributes, plus numerous examples of specific quality requirements.
-
-<a id="context"/>
-### Business Context
-
-Which external systems, interfaces or neighbouring systems...
-
-* are the most important data sources?
-* are the most important data sinks?
-* determine our reliability, availability, performance or other critical quality requirements?
-* are highly volatile or risky?
-* have high operational cost (e.g. pay-per-use)?
-* are difficult to implement, operate or monitor?
-
+* **Measurable**: The goal must be able to be measured which ensure it meets the desired standards of quality and performance. 
 
 <a id="decisions"/>
-### Core Decisions - Good or Bad
+### Core Architecture Decisions
 
-Which decisions... 
+What are the core architecture decision made and the reason leading to it?
 
-* lead to the current state of the system?
-* are you especially proud of?
-* turned out to be dubious, wrong or painful?
-* can't you understand from todays' perspective?
-
-<a id="components"/>
-### Components / Modules
-
-What are the major building blocks of the system
-(e.g. modules, subsystems, packages, components, services)?
-
+* **Assumption**: Are there decision made based on some assumptions? What are those?
+* **Rationale and Options Considered**: What are the possible options and what leads to the decision?
 
 <a id="technology"/>
 ### Technologies
@@ -246,14 +180,14 @@ For example:
 * operating technologies and environment
 * monitoring and administration technologies and environment  
 
-See the companion [Technology Stack Canvas](https://techstackcanvas.io/).
 
-<a id="risks"/>
-### Risks and Missing Information
+<a id="components"/>
+### Components / Modules
 
-* What are known problems?
-* Which parts of the system are known to cause problems during implementation, test or operation?
-* Which processes (requirements, architecture/implementation, test, rollout, administration, operation) cause problems?
-* What hinders development or value-generation?
-* What would you like to know about the system, but cannot currently find out?
-* What is hindering the team from delivering better value faster?
+What are the major building blocks of the system
+(e.g. modules, subsystems, packages, components, services)?
+
+Which external systems, interfaces or neighbouring systems are depending on?
+
+
+

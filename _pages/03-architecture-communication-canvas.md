@@ -135,7 +135,7 @@ A value proposition is a clear statement that explains what is the problem to so
 <a id="stakeholder"/>
 ### Key Stakeholder
 
-Identify the most important stakeholders to be informed or consulted for endorsing the proposed initiative
+Who has been informed or consulted to endorse the proposed initiative?
 
 * **Not only the architects**: Who are our most important contributors or subject matter experts?
 
@@ -150,9 +150,19 @@ What aims to achieve (objectives), the limits or scope within which it operates 
 <a id="quality"/>
 ### Quality Requirements
 
-What are the important quality goals and requirements, like data latency, reliability, performance or similar. These goals must fulfill stakeholder expectations and met to be considered successful. 
+What are the important quality goals and requirements that must fulfill and met to be considered successful? Pick the top 3 from the list below and prioritize
 
 * **Measurable**: The goal must be able to be measured which ensure it meets the desired standards of quality and performance. 
+
+* Uptime Availability
+* Security / Compliance
+* Accuracy
+* Consistency
+* Response Time
+* Throughput
+* Timeliness
+* Latency
+
 
 <a id="decisions"/>
 ### Core Architecture Decisions
@@ -161,11 +171,16 @@ What are the core architecture decision made and the reason leading to it?
 
 * **Assumption**: Are there decision made based on some assumptions? What are those?
 * **Rationale and Options Considered**: What are the possible options and what leads to the decision?
+* **Following the ASW Architecture Principles**: Architecture fulfills the architecture principles. Are there any one of them that   
 
 <a id="technology"/>
 ### Technologies
 
 What are the most important technologies used for development and operation of the system?
+
+* **Reuse**: Can existing technology be used, if yes which one.
+* **Future Ready**: Are strategic technology such as Generative AI considered?
+* **New Technology**: If new technology needs to be used, describe and explain
 
 For example:
 * programming languages and technologies

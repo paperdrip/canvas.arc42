@@ -150,11 +150,9 @@ What aims to achieve (objectives), the limits or scope within which it operates 
 <a id="quality"/>
 ### Major Quality Requirements
 
-What are the important quality goals and requirements that must fulfill and met to be considered successful? 
+Define and rank the three most important quality goals and requirements in order to establish a robust architecture and selecting the right technology. This is essential to ensure these goals meet stakeholder expectations and are achieved successfully.
 
 * **Measurable**: The goal must be able to be measured which ensure it meets the desired standards of quality and performance. 
-
-Pick the top 3 from the list below and prioritize
 
 * Uptime Availability
 * Security / Compliance

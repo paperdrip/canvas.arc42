@@ -56,7 +56,7 @@ Click on an element to see a more detailed description, or just scroll down.
 <a href="#quality" class="part requirement quality">
   <div class="flex row space-between">
     <div class="flex column">
-      <strong>Quality Requirements</strong><br>
+      <strong>Major Quality Requirements</strong><br>
       <small>What are the specific criteria that must be met? </small>
     </div>
       <i class="fa fa-certificate icon" aria-hidden="true"></i>
@@ -148,7 +148,7 @@ What aims to achieve (objectives), the limits or scope within which it operates 
 * **What it is Not**: What would be out of scope?
 
 <a id="quality"/>
-### Quality Requirements
+### Major Quality Requirements
 
 What are the important quality goals and requirements that must fulfill and met to be considered successful? 
 

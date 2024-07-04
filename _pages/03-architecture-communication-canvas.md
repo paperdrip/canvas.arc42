@@ -154,6 +154,8 @@ Define and rank the three most important quality goals and requirements in order
 
 * **Measurable**: The goal must be able to be measured which ensure it meets the desired standards of quality and performance. 
 
+Include the following but not limited to,
+
 * Uptime Availability
 * Security / Compliance
 * Accuracy

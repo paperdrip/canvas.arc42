@@ -176,7 +176,7 @@ What are the core architecture decision made and the reason leading to it?
 
 * **Assumption**: Are there decision made based on some assumptions? What are those?
 * **Rationale and Options Considered**: What are the possible options and what leads to the decision?
-* **Following the ASW Architecture Principles**: Architecture fulfills the architecture principles. Are there any one of them that   
+* **Following the ASW Architecture Principles**: Architecture fulfills the architecture principles. Are there any one of them that is not followed?  
 
 <a id="technology"/>
 ### Technologies

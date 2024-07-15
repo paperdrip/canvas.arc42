@@ -135,9 +135,10 @@ A value proposition is a clear statement that explains what is the problem to so
 <a id="stakeholder"/>
 ### Key Stakeholder
 
-Who has been informed or consulted to endorse the proposed initiative?
+Who has been informed or consulted to endorse the proposed initiative? Whom is this for?
 
 * **Not only the architects**: Who are our most important contributors or subject matter experts?
+* **Internal and external**: Who would be the user? Internal staff or external customer? 
 
 <a id="context"/>
 ### Scope of the Proposition
@@ -146,6 +147,8 @@ What aims to achieve (objectives), the limits or scope within which it operates 
 
 * **Make it Clear**: What is the definition in business terms?
 * **What it is Not**: What would be out of scope?
+* **Questions of timing**: What are the dates already determined? 
+* **Current Status**: What is the current status? 
 
 <a id="quality"/>
 ### Major Quality Requirements
